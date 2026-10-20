@@ -38,6 +38,19 @@ python3 -m lantern    # run without installing (from src/, needs the GTK deps)
 
 Bump the version in `src/lantern/__init__.py`.
 
+## Releases
+
+GitHub Actions builds the `.deb` on every push and pull request (download it
+from the run's artifacts). To publish a release, bump the version, then push a
+matching tag:
+
+```sh
+git tag v0.1.0 && git push origin v0.1.0
+```
+
+The workflow checks that the tag matches `__version__`, builds the package and
+attaches it to a new GitHub Release.
+
 ## Layout
 
 ```
