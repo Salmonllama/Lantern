@@ -1,0 +1,4 @@
+#!/bin/sh
+# Launcher for Lantern
+export PYTHONPATH="/usr/share/lantern${PYTHONPATH:+:$PYTHONPATH}"
+exec /usr/bin/python3 -m lantern "$@"

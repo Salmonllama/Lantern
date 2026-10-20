@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=Lantern
+GenericName=AI Chat
+Comment=Private AI chat that runs on your own computer
+Exec=lantern
+Icon=io.github.lantern.Lantern
+Terminal=false
+Categories=Utility;Office;
+Keywords=AI;chat;LLM;assistant;offline;private;
+StartupNotify=true
+StartupWMClass=io.github.lantern.Lantern
